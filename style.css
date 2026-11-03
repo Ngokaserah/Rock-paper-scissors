@@ -1,0 +1,113 @@
+body{
+     background-color:rgb(78, 21, 21);
+}
+
+div{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    box-shadow: 0 10px 35px rgba(35, 55, 100, 0.15);
+    opacity: 0.9;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 50px;
+    
+}
+div div{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 30px;
+    margin: 10px 50px; 
+}
+ h2{
+    color:rgb(81, 56, 56);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+span{
+    font-size: 55px;
+}
+button{
+    padding: 0 30px;
+    border: none;
+    background-color: white;
+}
+
+.score{
+font-weight: 900;
+}
+
+.rbtn{
+    color: white;
+    background-color: brown;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px 25px;
+}
+
+#board{
+    font-size: 45px;
+    font-weight: bold;
+    color: brown;
+    margin-bottom: 4px;
+}
+small{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+b{
+    color: brown;
+}
+
+footer{
+     color: white;
+     text-align: center;
+}
+
+
+@media(max-width:600px){
+    span{
+    font-size: 20px;}
+
+    h2{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 15px;
+        margin-top: 50px;
+    }
+    div{
+        border: none;
+        width: 100%;
+
+    }
+    .game-btn{
+        padding:  auto 15px;      
+    }
+    body{padding: auto 20px;}
+
+    footer{
+        margin-bottom: 50px;
+    }
+    #board{
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+
+
